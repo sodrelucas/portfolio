@@ -39,7 +39,7 @@ export default function Home() {
             </button>
             <Link
               to="/contato"
-              className="border px-6 rounded cursor-pointer font-semibold hover:text-[#b3c6df] transition-colors duration-300  max-[426px]:py-1.5 flex items-center"
+              className="border px-6 rounded cursor-pointer font-semibold hover:text-[#b3c6df] transition-colors duration-300  max-[426px]:py-1.5 flex items-center justify-center"
             >
               Entrar em contato
             </Link>
