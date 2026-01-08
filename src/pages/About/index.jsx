@@ -154,7 +154,7 @@ export default function About() {
           <a
             href="https://www.linkedin.com/in/lusoares"
             target="_blank"
-            className="flex items-center border px-6 rounded cursor-pointer font-semibold hover:text-[#b3c6df] transition-colors duration-300  max-[426px]:py-1.5"
+            className="flex items-center justify-center border px-6 rounded cursor-pointer font-semibold hover:text-[#b3c6df] transition-colors duration-300  max-[426px]:py-1.5"
           >
             Ver LinkedIn
           </a>
