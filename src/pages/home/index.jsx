@@ -99,7 +99,7 @@ export default function Home() {
               <div class="flex">
                 <span class="w-6 text-slate-600 select-none">3</span>
                 <span class="ml-4 text-blue-300">role:</span>
-                <span class="text-green-400 ml-2">'Full Stack Engineer'</span>,
+                <span class="text-green-400 ml-2">'Front-end Developer'</span>,
               </div>
 
               <div class="flex">
