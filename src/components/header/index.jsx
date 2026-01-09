@@ -44,10 +44,12 @@ export default function Header() {
           >
             Contato
           </Link>
-          <span className="relative w-fit px-3 py-1.5 font-bold text-white rounded bg-[#135bec] cursor-pointer transition-colors duration-300 hover:bg-[#2568ee]">
+          <a href="/LucasSoares.pdf"
+            download 
+            className="relative w-fit px-3 py-1.5 font-bold text-white rounded bg-[#135bec] cursor-pointer transition-colors duration-300 hover:bg-[#2568ee]">
             <span className="absolute -inset-1 rounded bg-[#135bec] blur-md opacity-20 -z-10"></span>
             Baixar CV
-          </span>
+          </a>
         </div>
 
         <button
@@ -64,10 +66,12 @@ export default function Header() {
           <Link to="/sobre">Sobre</Link>
           <Link to="/projetos">Projetos</Link>
           <Link to="/contato">Contato</Link>
-          <span className="relative w-fit px-3 py-1.5 font-bold text-white rounded bg-[#135bec]">
+          <a href="/LucasSoares.pdf"
+            download 
+            className="relative w-fit px-3 py-1.5 font-bold text-white rounded bg-[#135bec]">
             <span className="absolute -inset-1 rounded bg-[#135bec] blur-md opacity-20 -z-10"></span>
             Baixar CV
-          </span>
+          </a>
         </div>
       )}
     </header>
