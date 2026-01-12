@@ -44,9 +44,11 @@ export default function Header() {
           >
             Contato
           </Link>
-          <a href="/cv.pdf"
-            download 
-            className="relative w-fit px-3 py-1.5 font-bold text-white rounded bg-[#135bec] cursor-pointer transition-colors duration-300 hover:bg-[#2568ee]">
+          <a
+            href="/Lucas Soares - Desenvolvedor Web.pdf"
+            download
+            className="relative w-fit px-3 py-1.5 font-bold text-white rounded bg-[#135bec] cursor-pointer transition-colors duration-300 hover:bg-[#2568ee]"
+          >
             <span className="absolute -inset-1 rounded bg-[#135bec] blur-md opacity-20 -z-10"></span>
             Baixar CV
           </a>
@@ -66,9 +68,11 @@ export default function Header() {
           <Link to="/sobre">Sobre</Link>
           <Link to="/projetos">Projetos</Link>
           <Link to="/contato">Contato</Link>
-          <a href="/cv.pdf"
-            download 
-            className="relative w-fit px-3 py-1.5 font-bold text-white rounded bg-[#135bec]">
+          <a
+            href="/Lucas Soares - Desenvolvedor Web.pdf"
+            download
+            className="relative w-fit px-3 py-1.5 font-bold text-white rounded bg-[#135bec]"
+          >
             <span className="absolute -inset-1 rounded bg-[#135bec] blur-md opacity-20 -z-10"></span>
             Baixar CV
           </a>
